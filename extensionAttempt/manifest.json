@@ -1,7 +1,7 @@
 {
     "name": "Jot note",
     "description": "A note taking extension to help organize and schedule",
-    "version": "0.0.1",
+    "version": "3.0.0",
     "content_scripts": [
         {
             "matches": [
@@ -17,13 +17,10 @@
        "page": "background.html",
        "persistent": false
     },
-    "manifest_version": 2,
-    "browser_action": {
+    "manifest_version": 3,
+    "action": {
         "default_popup": "popup.html",
         "default_icon": "logo.png"
-    },
-    "icons": {
-        "128": "logo.png"
     },
     "permissions": [
         "tabs"
